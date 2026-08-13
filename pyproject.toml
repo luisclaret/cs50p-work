@@ -1,0 +1,21 @@
+[project]
+name = "cs50p"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "emoji>=2.15.0",
+    "inflect>=7.5.0",
+    "pillow>=12.3.0",
+    "pyfiglet>=1.0.4",
+    "requests>=2.34.2",
+    "tabulate>=0.10.0",
+    "validator-collection>=1.5.0",
+]
+
+[dependency-groups]
+dev = [
+    "check50>=3.4.0",
+    "pytest>=9.1.1",
+    "submit50>=3.2.1",
+]
