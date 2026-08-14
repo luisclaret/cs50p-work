@@ -5,6 +5,7 @@ description = "Add your description here"
 requires-python = ">=3.12"
 dependencies = [
     "emoji>=2.15.0",
+    "fpdf2>=2.8.8",
     "inflect>=7.5.0",
     "pillow>=12.3.0",
     "pyfiglet>=1.0.4",
